@@ -31,7 +31,7 @@ class Mypy(PythonLinter):
     selectors = {}
     word_re = None
     defaults = {}
-    default_type = highlight.WARNING
+    default_type = highlight.ERROR
     inline_settings = None
     inline_overrides = None
     comment_re = None
